@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: antiquewhite; width: 12%;">
+
+        <h2> Just a Calc </h2>
+        <input type="text" id="firstNumber" placeholder="First number">
+        
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+            <button onclick="calculate('+')"> + </button>
+            <button onclick="calculate('-')"> - </button>
+            <button onclick="calculate('*')"> * </button>
+            <button onclick="calculate('/')"> / </button>
+        </div>
+
+        <input type="text" id="secondNumber" placeholder="Second number">
+        <p id="result"> 0 </p>
+        <button onclick="clearCalc()"> Clear </button>
+    </div>
+
+</body>
+<script src="calc.js"></script>
+</html>
